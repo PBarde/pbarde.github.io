@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
   <title>Paul Barde</title>
   <style>
+
     body {
+      margin: 0;
+      padding: 0;
+      font-family: Calibri, sans-serif;
+      /* other styles... */
+    }
+
+    .container {
+      width: 1920px;
+      margin: 0 auto;
+      margin: auto;
+      padding: 0;
+      display: center;
+      justify-content: center;
+      align-items: center;
+      /* other styles... */
+    }
+
+    /* body {
       font-family: Calibri, sans-serif;
       margin: auto;
       padding: 0;
       display: center;
-      justify-content: center; /* Center the content horizontally */
-      align-items: center; /* Center the content vertically */
-    }
+      justify-content: center;
+      align-items: center; 
+    } */
 
     nav {
       background-color: #edb101;
@@ -20,7 +42,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 10px;
+      padding: 0.5%;
     }
 
     nav ul {
@@ -34,7 +56,7 @@
 
     nav ul li {
       display: inline-block;
-      margin: 0 10px;
+      margin: 1% 1%;
     }
 
     nav ul li:first-child {
@@ -47,7 +69,7 @@
     }
 
     section {
-      padding: 40px;
+      padding: 2%;
       text-align: center;
     }
 
@@ -61,17 +83,17 @@
 
     .my-name {
       font-size: 48px;
-      margin-right: 500px; /* Add right margin to "MY NAME" */
+      margin-right: 48%; /* Add right margin to "MY NAME" */
     }
 
   section#about .about-capsule {
   display: inline-block;
   background-color: #f2f2f2;
-  width: 250px;
-  padding: 20px;
-  border-radius: 10px;
-  margin-left: 260px;
-  margin-right: 50px;
+  width: 12.5%;
+  padding: 1%;
+  border-radius: 0.5%;
+  margin-left: 12.5%;
+  margin-right: 2.5%;
 }
 
 section#about {
@@ -81,8 +103,8 @@ section#about {
 
 section#about img {
   display: block;
-  margin: 0 auto 10px; /* Center the image horizontally and add margin below */
-  width: 200px; /* Adjust the width as needed */
+  margin: 0 auto 0.5%; /* Center the image horizontally and add margin below */
+  width: 90%; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -91,18 +113,11 @@ section#about .about-text {
 }
 
 section#about .about-text p {
-  margin-bottom: 10px; /* Add spacing between paragraphs */
+  margin-bottom: 0.5%; /* Add spacing between paragraphs */
 }
 
 section#about .about-text a {
-  margin-right: 10px; /* Add spacing between the links */
-}
-
-section#about img {
-  display: block;
-  margin: 0 auto 10px; /* Center the image horizontally and add margin below */
-  width: 200px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  margin-right: 0.5%; /* Add spacing between the links */
 }
 
 p.contact {
@@ -115,7 +130,7 @@ p.email {
 }
 
 p.desc{
-  width: 800px;
+  width: 40%;
 }
 
 section#research {
@@ -184,7 +199,7 @@ section#research .research-capsule2 {
 }
 
 .image-capsule img {
-  margin: 10px;
+  margin: 0.5%;
 }
 
   </style>
@@ -194,20 +209,20 @@ section#research .research-capsule2 {
     <h1>Welcome to My Personal Website</h1>
   </header> -->
 
+  <div class="container"> 
+
   <nav>
     <div class="my-name">
       Paul <span class="name">Barde</span>
     </div>
-
     <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#cv">CV</a></li>
+      <p><li><a href="#about" style="margin-right: 10px;">Bio</a></li></p>
+      <p><li><a href="#news" style="margin-right: 10px;">News</a></li></p>
+      <p><li><a href="#research" style="margin-right: 10px;">Research</a></li></p>
+      <p><li><a href="#cv" style="margin-right: 10px;">CV</a></li></p>
       <!-- <li><a href="#contact">Contact</a></li> -->
     </ul>
   </nav>
-
 
 
   <section id="about">
@@ -257,8 +272,8 @@ section#research .research-capsule2 {
 
     <!-- moma-ppo -->
     <div class="research-capsule">
-      <img class="zoomedImage" src="ocp-website-img.png" alt="" width="250" height="auto" style="margin-right: 20px;">
-      <img class="zoomedImage" src="ocp-website.gif" alt="" width= auto height="250" style="margin-right: 50px;" >
+      <img class="zoomedImage" src="ocp-website-img.png" alt="" width="18%" height="auto" style="margin-right: 20px;">
+      <img class="zoomedImage" src="ocp-website.gif" alt="" width="18%" height="auto" style="margin-right: 50px;" >
       <p> 
         <span class="name"> <a href="https://arxiv.org/abs/2305.17198" target="_blank" 
           rel="noopener noreferrer">A Model-Based Solution to the Offline Multi-Agent Reinforcement Learning Coordination Problem</a> </span> 
@@ -278,8 +293,8 @@ section#research .research-capsule2 {
 
     <!-- architect-builder project -->
     <div class="research-capsule">
-      <img class="zoomedImage" src="abp.png" alt="" width="250" height="auto" style="margin-right: 20px;">
-      <img class="zoomedImage" src="abp.gif" alt="" width= "350" height="auto" style="margin-right: 50px;" >
+      <img class="zoomedImage" src="abp.png" alt="" width="18%" height="auto" style="margin-right: 20px;">
+      <img class="zoomedImage" src="abp.gif" alt="" width= "25%" height="auto" style="margin-right: 50px;" >
       <p> 
         <span class="name"> <a href="https://arxiv.org/abs/2112.07342" target="_blank" 
           rel="noopener noreferrer">Learning to Guide and to Be Guided in the Architect-Builder Problem</a> </span> 
@@ -308,8 +323,8 @@ section#research .research-capsule2 {
 
     <!-- ASAF -->
     <div class="research-capsule">
-      <img class="zoomedImage" src="asaf-diagram.png" alt="" width="300" height="auto" style="margin-right: 20px;">
-      <img class="zoomedImage" src="pommerman.gif" alt="" width= auto height="200" style="margin-right: 50px;" >
+      <img class="zoomedImage" src="asaf-diagram.png" alt="" width="20%" height="auto" style="margin-right: 20px;">
+      <img class="zoomedImage" src="pommerman.gif" alt="" width="20%" height="auto" style="margin-right: 50px;" >
       <p> 
         <span class="name"> <a href="https://arxiv.org/abs/2006.13258" target="_blank" 
           rel="noopener noreferrer">Adversarial Soft Advantage Fitting: Imitation Learning without Policy Optimization</a> </span> 
@@ -331,8 +346,8 @@ section#research .research-capsule2 {
 
       <!-- CMADDPG -->
       <div class="research-capsule">
-        <img class="zoomedImage" src="coach-diag.png" alt="" width="300" height="auto" style="margin-right: 20px;">
-        <img class="zoomedImage" src="bounce.gif" alt="" width= auto height="200" style="margin-right: 50px;" >
+        <img class="zoomedImage" src="coach-diag.png" alt="" width="20%" height="auto" style="margin-right: 20px;">
+        <img class="zoomedImage" src="bounce.gif" alt="" width= "20%" height="auto" style="margin-right: 50px;" >
         <p> 
           <span class="name"> <a href="https://arxiv.org/abs/1908.02269" target="_blank" 
             rel="noopener noreferrer">Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning</a> </span> 
@@ -361,9 +376,9 @@ section#research .research-capsule2 {
       <iframe width="560" height="315" src="https://www.youtube.com/embed/egryaSwf0UA" title="YouTube video player" frameborder="0" style="margin-right: 50px;"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-      <img class="zoomedImage" src="swarm-2d.gif" alt="" width= auto height="200" style="margin-right: 20px;" >
+      <img class="zoomedImage" src="swarm-2d.gif" alt="" width= "15%" height="auto" style="margin-right: 20px;" >
 
-      <img class="zoomedImage" src="corridor-2d.gif" alt="" width= auto height="200" style="margin-right: 50px;" >
+      <img class="zoomedImage" src="corridor-2d.gif" alt="" width= "15%" height="auto" style="margin-right: 50px;" >
       <p> 
         <span class="name"> MARL for Many Agent Navigation and Swarm Simulation</span> 
         <br>
@@ -480,7 +495,7 @@ section#research .research-capsule2 {
   </footer>
 
 
-
+</div>
   <script>
 
 
